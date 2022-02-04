@@ -11,7 +11,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(221, 217, 217);
+  background-color: #845ec2;
+  color: rgb(228, 228, 228);
 }
 .container {
   width: 500px;
@@ -39,16 +40,19 @@ body {
   justify-content: space-evenly;
   font-size: 1.2rem;
   background-color: #fff;
+  box-shadow: 5px 7px 15px -7px rgba(50, 0, 107, 0.75);
   padding-bottom: 16px;
   border-radius: 7px;
 }
 .inc-exp-container h4 {
   font-size: 1.15rem;
   font-weight: bold;
+  color:rgb(71, 71, 71);
 }
 .money {
   padding-top: 10px;
   font-size: 1.3rem;
+  color:rgb(70, 69, 69);
 }
 .history {
   padding: 0.5rem 0;
@@ -80,9 +84,10 @@ body {
   width: 100%;
   padding: 0.7rem 0;
   margin-top: 10px;
-  font-size: 1rem;
-  background-color: rgb(63, 170, 63);
+  font-size: 1.2rem;
+  background-color: #00c2a8;
   color: white;
+  box-shadow: 5px 7px 15px -7px rgba(50, 0, 107, 0.75);
   border-radius: 7px;
   border: none;
   cursor: pointer;
@@ -93,7 +98,7 @@ body {
 }
 #text {
   width: 100%;
-  padding: 5px 0;
+  padding: 8px 0;
   text-indent: 8px;
   font-size: 1rem;
   border-radius: 7px;
@@ -101,7 +106,7 @@ body {
 }
 #amount {
   width: 100%;
-  padding: 5px 0;
+  padding: 8px 0;
   text-indent: 8px;
   font-size: 1rem;
   border-radius: 7px;
@@ -110,11 +115,11 @@ body {
 #list {
   list-style-type: none;
   padding: 0;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 #list li {
   background-color: #fff;
-  /* box-shadow: var(--box-shadow); */
+  box-shadow: 5px 7px 15px -7px rgba(50, 0, 107, 0.75);
   border-radius: 7px;
   color: #333;
   display: flex;
@@ -125,7 +130,7 @@ body {
 }
 .delete-btn {
   cursor: pointer;
-  background-color: #e74c3c;
+  background-color: #bd3021;
   border: 0;
   border-radius: 7px;
   color: #fff;
